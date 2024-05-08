@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7da3bc9cf3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <div class="logo"><span>N</span>itoo.</div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="home-content">
+            <div class="content">
+                <p>WEB DEVELOPER AND DIGITAL MARKETING EXPERT</p>
+                <h1>Hi, I am <span>Nitoo Kumari</span> <br />from pakistan.
+                </h1>
+            </div>
+            <div class="home-image"><img src="images/nitu.png" alt=""></div>
+        </div>
+
+        <!----About----->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/neha.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi, my name is Nitoo Kumari from Pakistan. I'm a web developer and digital
+                            marketer,<br /> crafting websites and strategies that get noticed online. I build
+                            sleek sites and run campaigns <br />using SEO and social media to boost visibility
+                            and engagement. My goal is simple: to create<br /> great user experiences and help
+                            businesses succeed online. Let's work together to make your<br /> digital presence
+                            shine.</p>
+
+                        <div class="tab-titles">
+                            <div class="tab-links active-links" onclick="opentab('Skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('Experience')">Experience</div>
+                            <div class="tab-links" onclick="opentab('education')">Education</div>
+                        </div>
+                        <div class="tab-content active-tab" id="Skills">
+                            <ul>
+                                <li><span>Web Development</span><br />Web App Development</li>
+                                <li><span>Digital Marketing</span><br />Social Media Marketing & Google Ads</li>
+                                <li><span>SEO</span><br />Search Engine Marketing</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="Experience">
+                            <ul>
+                                <li><span>Current</span><br />Web App Development training at Governor house Karachi
+                                </li>
+                                <li><span>2023 - 2024</span><br />Social Media Marketing & Google Ads from Digi Skills
+                                </li>
+                                <li><span>2022 - 2024</span><br />Search Engine Marketing from Digi skills & Navttc</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>Current</span><br />Web App Development trainig at Governor house Karachi</li>
+                                <li><span>2022</span><br />Graduated fron Goverment Degree Collage Hub</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!----Services------>
+        <div id="services">
+            <div class="container">
+                <h1 class="service-title">My Services</h1>
+                <div class="services-list">
+
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Enhance your website with our professional web development services
+                            for a better online experience.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <h2>Social Media Marketing</h2>
+                        <p>"Elevate your brand's online presence and engagement through strategic
+                            social media marketing tailored to your audience."
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h2>Search Engine Optamization</h2>
+                        <p>"Elevate your brand's online presence and engagement through strategic
+                            social media marketing tailored to your audience."
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------Portfolio----------->
+        <div id="portfolio">
+            <div class="container"></div>
+            <h1 class="service-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+                        <h3>Clinic Website</h3>
+                        <p>Your go-to online hub for all things health-related at our clinic.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Effortlessly tackle complex calculations with our user-friendly calculator tool. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3>Landing page</h3>
+                        <p>Captivate your audience and drive conversions with our sleek and engaging
+                            landing page design.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+        <!---------Contact section-------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="contact-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Example@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>+924445555555</p>
+                        <div class="socialmedia-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/Screenshot (138).jpg" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Entre Your Name" required>
+                            <input type="email" name="email" placeholder="Entre Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Write Your Message Here!"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                        </form>
+                        <SPan id="msg"></SPan>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright © Nitoo Kumari</p>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!----script------>
+        <script>
+            let tablinks = document.getElementsByClassName('tab-links');
+            let tabcontents = document.getElementsByClassName('tab-content');
+
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove('active-links');
+                }
+
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove('active-tab');
+                }
+
+                event.currentTarget.classList.add('active-links')
+                document.getElementById(tabname).classList.add('active-tab')
+            }
+
+        </script>
+
+        <script>
+            let side_menu = document.getElementById("sidemenu");
+
+
+            function openmenu() {
+                side_menu.style.right = '0';
+
+            }
+
+
+            function closemenu() {
+                side_menu.style.right = '-200px';
+
+            }
+
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyl0_6NZQP9Qv9yXHuoHwZosMCHxcsZsLAOAV7kSUFY18WqJh-wk6eUSbpqItDxDbsp/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById('msg');
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = 'Message sent successfully!'
+                        setTimeout(function () {
+                            msg.innerHTML = ''
+
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
